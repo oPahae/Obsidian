@@ -1,2 +1,11 @@
-# Obsidian
-Application de chat en temps réel avec Next.js, MongoDB et Socket.io
+"# Obsidian" 
+"# Obsidian" 
+"# Obsidian" 
+"# Obsidian" 
+"# Obsidian" 
+"# Obsidian" 
+"# Obsidian" 
+"# Obby" 
+"# ob3" 
+"# ob3" 
+"# ob4" 
