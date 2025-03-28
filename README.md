@@ -2,7 +2,7 @@
 
 ## 🚀 Aperçu du Projet
 
-**Obsidian** est une application web moderne conçue pour offrir une communication fluide entre utilisateurs en temps réel. Avec des fonctionnalités avancées comme l'authentification, la création de salons et la messagerie dynamique, elle propose un environnement interactif et sécurisé.
+**Obsidian** est une application web moderne avec Express.js pour le backend et Next.js pour le frontend, conçue pour offrir une communication fluide entre utilisateurs en temps réel. Avec des fonctionnalités avancées comme l'authentification, la création de salons et la messagerie dynamique, elle propose un environnement interactif et sécurisé.
 
 ---
 
