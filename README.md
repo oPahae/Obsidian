@@ -9,7 +9,7 @@
 ## 🛠️ Fonctionnalités
 
 ### 🔒 Authentification
-- Connexion/Inscription avec email et mot de passe.
+- Connexion/Inscription avec username et mot de passe.
 - Récupération de mot de passe via email.
 - Intégration de connexion Google.
 - Gestion sécurisée des sessions avec **Cookie.js** et **JWT**.
@@ -47,7 +47,7 @@
 - **Tailwind CSS**, **GSAP**, **Animate.css** : Animations élégantes et design moderne.
 
 ### Backend
-- **Next.js REST API** : Intégration backend flexible.
+- **Express.js** : Intégration backend flexible.
 - **MongoDB** et **Mongoose** : Gestion de bases de données non relationnelles.
 - **Socket.io** : Gestion des événements en temps réel.
 
@@ -149,7 +149,7 @@ app
 
 2. Accédez au répertoire du projet :
    ```bash
-   cd app
+   cd code/app
    ```
 
 3. Installez les dépendances :
@@ -159,11 +159,13 @@ app
 
 4. Configurez les variables d'environnement dans un fichier `.env` :
    ```env
-   MONGODB_URI=votre_mongodb_uri
-   GOOGLE_CLIENT_ID=votre_google_client_id
-   GOOGLE_CLIENT_SECRET=votre_google_client_secret
-   JWT_SECRET=votre_jwt_secret
-   MAIL_SENDER=votre_email
+   MONGODB_URI=mongodb://127.0.0.1:27017/exemple
+   BREVO_USER=exemple@smtp-brevo.com
+   BREVO_SENDER=exemple@gmail.com
+   BREVO_API=exemple
+   NEXT_PUBLIC_GOOGLE_CLIENT_ID=exemple.apps.googleusercontent.com
+   NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=exemple
+   JWT_SECRET=exemple
    ```
 
 5. Lancez le serveur de développement :
